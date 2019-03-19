@@ -1,0 +1,225 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "laptop",
+            "entity": "category"
+          }
+        ],
+        "text": "show me some laptops"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "laptop",
+            "entity": "category"
+          }
+        ],
+        "text": "tell me about laptops"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "cloths",
+            "entity": "category"
+          }
+        ],
+        "text": "show me some cool cloths"
+      },
+      {
+        "intent": "inform",
+        "text": "show me some more like this"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "desktops",
+            "entity": "category"
+          }
+        ],
+        "text": "do you know about some desktops"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Cloths",
+            "entity": "category"
+          }
+        ],
+        "text": "Cloths"
+      },
+      {
+        "intent": "compare",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "macbook air",
+            "entity": "prod1"
+          },
+          {
+            "start": 24,
+            "end": 35,
+            "value": "macbook pro",
+            "entity": "prod2"
+          }
+        ],
+        "text": "compare macbook air and macbook pro"
+      },
+      {
+        "intent": "compare",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "Pant",
+            "entity": "prod1"
+          },
+          {
+            "start": 40,
+            "end": 48,
+            "value": "Trousers",
+            "entity": "prod2"
+          }
+        ],
+        "text": "what is the difference between Pant and Trousers"
+      },
+      {
+        "intent": "compare",
+        "text": "which one is good"
+      },
+      {
+        "intent": "compare",
+        "text": "compare these products"
+      },
+      {
+        "intent": "compare",
+        "text": "which one is best"
+      },
+      {
+        "intent": "compare",
+        "text": "which one's cool"
+      },
+      {
+        "intent": "compare",
+        "text": "which one's awesome for me"
+      },
+      {
+        "intent": "about_user",
+        "text": "show my details"
+      },
+      {
+        "intent": "about_user",
+        "text": "show about me"
+      },
+      {
+        "intent": "about_user",
+        "text": "show my cart items"
+      },
+      {
+        "intent": "about_user",
+        "text": "what is there in my cart"
+      },
+      {
+        "intent": "about_user",
+        "text": "what all i have purchased"
+      },
+      {
+        "intent": "about_user",
+        "text": "purchased items"
+      },
+      {
+        "intent": "about_user",
+        "text": "cart items"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "cloths",
+            "entity": "category"
+          }
+        ],
+        "text": "show me cloths for my party"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "cloths",
+            "entity": "category"
+          }
+        ],
+        "text": "i'm here to buy cloths"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

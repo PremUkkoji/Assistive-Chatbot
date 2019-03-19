@@ -1,0 +1,5 @@
+action_endpoint:
+#for rest-api
+  url: "http://localhost:5055/webhook"
+#for cmdline
+#url: "http://localhost:5055/webhook/"

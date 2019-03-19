@@ -1,0 +1,67 @@
+%YAML 1.1
+---
+actions:
+- action_user_cart
+- action_product_details
+- action_product_discount
+- utter_ask_second_product
+- action_user_profile
+- utter_ask_category
+- utter_greet
+- utter_request_login
+- action_product_compare
+- action_product_rating
+- utter_goodbye
+- utter_ask_first_product
+- action_category_products
+- action_user_purchased
+config:
+  store_entities_as_slots: true
+entities:
+- category
+- prod2
+- prod1
+forms: []
+intents:
+- about_user:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- greet:
+    use_entities: true
+- compare:
+    use_entities: true
+- inform:
+    use_entities: true
+slots:
+  category:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  prod1:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  prod2:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_category:
+  - text: Of which category?
+  - text: Which category products you want?
+  utter_ask_first_product:
+  - text: Which products discount you want?
+  - text: About which product?
+  utter_ask_second_product:
+  - text: With which product you want to compare?
+  utter_goodbye:
+  - text: Talk to you Later
+  - text: Bye Bye
+  - text: Until next time
+  utter_greet:
+  - text: Hello! How can I help?
+  - text: Hi there!
+  utter_request_login:
+  - text: You need to login first
+  - text: Please login to get Details
