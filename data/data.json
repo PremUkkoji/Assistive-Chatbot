@@ -57,66 +57,37 @@
         "entities": []
       },
       {
+        "text": "show me some clothes",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "clothes",
+            "entity": "category"
+          }
+        ]
+      },
+      {
         "text": "show me some laptops",
         "intent": "inform",
         "entities": [
           {
             "start": 13,
             "end": 20,
-            "value": "laptop",
+            "value": "laptops",
             "entity": "category"
           }
         ]
       },
       {
-        "text": "tell me about laptops",
+        "text": "show me some desktops",
         "intent": "inform",
         "entities": [
           {
-            "start": 14,
+            "start": 13,
             "end": 21,
-            "value": "laptop",
-            "entity": "category"
-          }
-        ]
-      },
-      {
-        "text": "show me some cool cloths",
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 18,
-            "end": 24,
-            "value": "cloths",
-            "entity": "category"
-          }
-        ]
-      },
-      {
-        "text": "show me some more like this",
-        "intent": "inform",
-        "entities": []
-      },
-      {
-        "text": "do you know about some desktops",
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 23,
-            "end": 31,
             "value": "desktops",
-            "entity": "category"
-          }
-        ]
-      },
-      {
-        "text": "Cloths",
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 0,
-            "end": 6,
-            "value": "Cloths",
             "entity": "category"
           }
         ]
@@ -140,104 +111,124 @@
         ]
       },
       {
-        "text": "what is the difference between Pant and Trousers",
+        "text": "compare between pant and trousers",
         "intent": "compare",
         "entities": [
           {
-            "start": 31,
-            "end": 35,
-            "value": "Pant",
+            "start": 16,
+            "end": 20,
+            "value": "pant",
             "entity": "prod1"
           },
           {
-            "start": 40,
-            "end": 48,
-            "value": "Trousers",
+            "start": 25,
+            "end": 33,
+            "value": "trousers",
             "entity": "prod2"
           }
         ]
       },
       {
-        "text": "which one is good",
-        "intent": "compare",
-        "entities": []
-      },
-      {
-        "text": "compare these products",
-        "intent": "compare",
-        "entities": []
-      },
-      {
-        "text": "which one is best",
-        "intent": "compare",
-        "entities": []
-      },
-      {
-        "text": "which one's cool",
-        "intent": "compare",
-        "entities": []
-      },
-      {
-        "text": "which one's awesome for me",
-        "intent": "compare",
-        "entities": []
-      },
-      {
-        "text": "show my details",
+        "text": "show items in my cart",
         "intent": "about_user",
         "entities": []
       },
       {
-        "text": "show about me",
+        "text": "show my basket",
         "intent": "about_user",
         "entities": []
       },
       {
-        "text": "show my cart items",
-        "intent": "about_user",
-        "entities": []
-      },
-      {
-        "text": "what is there in my cart",
-        "intent": "about_user",
-        "entities": []
-      },
-      {
-        "text": "what all i have purchased",
-        "intent": "about_user",
-        "entities": []
-      },
-      {
-        "text": "purchased items",
-        "intent": "about_user",
-        "entities": []
-      },
-      {
-        "text": "cart items",
-        "intent": "about_user",
-        "entities": []
-      },
-      {
-        "text": "show me cloths for my party",
+        "text": "discount on macbook air",
         "intent": "inform",
         "entities": [
           {
-            "start": 8,
-            "end": 14,
-            "value": "cloths",
-            "entity": "category"
+            "start": 12,
+            "end": 23,
+            "value": "macbook air",
+            "entity": "prod1"
           }
         ]
       },
       {
-        "text": "i'm here to buy cloths",
+        "text": "discount in pant",
         "intent": "inform",
         "entities": [
           {
-            "start": 16,
+            "start": 12,
+            "end": 16,
+            "value": "pant",
+            "entity": "prod1"
+          }
+        ]
+      },
+      {
+        "text": "rating of pant",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "pant",
+            "entity": "prod1"
+          }
+        ]
+      },
+      {
+        "text": "rating of tshirt",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "tshirt",
+            "entity": "prod1"
+          }
+        ]
+      },
+      {
+        "text": "view my profile",
+        "intent": "about_user",
+        "entities": []
+      },
+      {
+        "text": "view my details",
+        "intent": "about_user",
+        "entities": []
+      },
+      {
+        "text": "tell me about macbook air",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "macbook air",
+            "entity": "prod1"
+          }
+        ]
+      },
+      {
+        "text": "tell me about imac pro",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
             "end": 22,
-            "value": "cloths",
-            "entity": "category"
+            "value": "imac pro",
+            "entity": "prod1"
+          }
+        ]
+      },
+      {
+        "text": "tell me about trousers",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "trousers",
+            "entity": "prod1"
           }
         ]
       }

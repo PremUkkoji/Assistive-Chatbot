@@ -18,3 +18,144 @@ Rasa Core server is up and running on http://localhost:5002
 Rasa process starting
 Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
 Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_user_cart'. Action server responded with a non 200 status code of 503. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 503 Server Error: Service Unavailable for url: https://shoppingchatbot.herokuapp.com/webhook
+Encountered an exception while running action 'action_user_cart'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_user_purchased'. Action server responded with a non 200 status code of 503. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 503 Server Error: Service Unavailable for url: https://shoppingchatbot.herokuapp.com/webhook
+Encountered an exception while running action 'action_user_purchased'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_user_cart'. Action server responded with a non 200 status code of 503. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 503 Server Error: Service Unavailable for url: https://shoppingchatbot.herokuapp.com/webhook
+Encountered an exception while running action 'action_user_cart'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_product_compare'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_product_compare'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_product_compare'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_product_compare'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_product_compare'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_product_compare'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_product_discount'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_product_discount'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_product_discount'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_product_discount'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_category_products'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_category_products'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_product_details'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: Internal Server Error for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_product_details'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5002

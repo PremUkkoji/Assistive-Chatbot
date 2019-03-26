@@ -19,7 +19,7 @@ def train_dialogue(domain_file = 'domain.yml',
 					model_path = './models/dialogue',
 					training_data_file = './data/stories.md'):
 					
-	agent = Agent(domain_file, policies = [MemoizationPolicy(), KerasPolicy(max_history=3, epochs=200, batch_size=50)])
+	agent = Agent(domain_file, policies = [MemoizationPolicy(), KerasPolicy(max_history=3, epochs=500, batch_size=50)])
 	data = agent.load_data(training_data_file)	
 	
 
@@ -30,11 +30,11 @@ def train_dialogue(domain_file = 'domain.yml',
 	
 def run_weather_bot(serve_forever=True):
 	interpreter = RasaNLUInterpreter('./models/nlu/default/shoppingnlu')
-	action_endpoint = EndpointConfig(url="https://shoppingchatbot.herokuapp.com/webhook")
+	action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
 	agent = Agent.load('./models/dialogue', interpreter=interpreter, action_endpoint=action_endpoint)
 	rasa_core.run.serve_application(agent ,channel='cmdline')
 	return agent
 	
 if __name__ == '__main__':
 	train_dialogue()
-	run_weather_bot()
+	#run_weather_bot()

@@ -1,5 +1,6 @@
 action_endpoint:
 #for rest-api
-  url: "https://shoppingchatbot.herokuapp.com/webhook"
+  #url: "https://shoppingchatbot.herokuapp.com/webhook"
+  url: "http://localhost:5055/webhook"
 #for cmdline
 #url: "http://localhost:5055/webhook/"
