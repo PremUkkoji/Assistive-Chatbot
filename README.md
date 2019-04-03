@@ -44,7 +44,7 @@ and set the body as
 ```
 {
 	"sender": "Rasa",
-	"message": "show me some cloths"
+	"message": "show me some clothes"
 }
 ```
 and header as
