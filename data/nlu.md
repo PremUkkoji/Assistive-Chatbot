@@ -5,6 +5,10 @@
 - show my basket
 - view my profile
 - view my details
+- show item in my cart
+- view my profile
+- view my profile
+- show my cart items
 
 ## intent:compare
 - compare [macbook air](prod1) and [macbook pro](prod2)
@@ -26,6 +30,8 @@
 - bye
 - good bye
 - bye
+- bye
+- good bye
 
 ## intent:greet
 - hi
@@ -44,6 +50,8 @@
 - hi chatbot
 - hey there
 - hi
+- hey there
+- hi
 
 ## intent:inform
 - show me some [clothes](category)
@@ -56,3 +64,4 @@
 - discount on [pant](prod1)
 - rating of [imac pro](prod1)
 - rating of [macbook pro](prod1)
+- tell me about [macbook air](prod1)

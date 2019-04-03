@@ -14,8 +14,8 @@ from rasa_core.utils import EndpointConfig
 
 logger = logging.getLogger(__name__)
 
-
-def run_weather_online(interpreter, domain_file="domain.yml", training_data_file='data/stories.md'):
+# this definition let's you write stories interactively with chatbot
+def run_chatbot_online(interpreter, domain_file="domain.yml", training_data_file='data/stories.md'):
     action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")						  
     agent = Agent(domain_file,
                     policies=[MemoizationPolicy(max_history=2), KerasPolicy(max_history=3, epochs=3, batch_size=50)],
@@ -31,4 +31,4 @@ def run_weather_online(interpreter, domain_file="domain.yml", training_data_file
 if __name__ == '__main__':
     logging.basicConfig(level="INFO")
     nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/shoppingnlu')
-    run_weather_online(nlu_interpreter)
+    run_chatbot_online(nlu_interpreter)

@@ -1,25 +1,26 @@
 %YAML 1.1
 ---
 actions:
-- utter_ask_first_product
-- action_user_purchased
-- action_category_products
-- utter_goodbye
 - action_product_rating
-- utter_greet
+- action_category_products
+- action_default
 - action_product_compare
-- action_user_profile
-- utter_request_login
-- utter_ask_second_product
-- action_product_discount
-- action_user_cart
+- utter_ask_first_product
 - action_product_details
+- action_product_discount
+- utter_goodbye
+- utter_ask_second_product
+- action_user_profile
+- utter_greet
+- utter_request_login
+- action_user_purchased
+- action_user_cart
 - utter_ask_category
 config:
   store_entities_as_slots: true
 entities:
-- prod2
 - prod1
+- prod2
 - category
 forms: []
 intents:
@@ -27,9 +28,9 @@ intents:
     use_entities: true
 - goodbye:
     use_entities: true
-- inform:
-    use_entities: true
 - about_user:
+    use_entities: true
+- inform:
     use_entities: true
 - compare:
     use_entities: true

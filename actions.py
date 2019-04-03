@@ -8,6 +8,18 @@ from rasa_core_sdk.events import SlotSet
 import requests, json
 from pprint import pprint
 
+# these are the actions that chatbot will take according to the use intent
+
+# the following action is taken when the message is out of scope of chatbot
+class OutOfScopeMessage(Action):
+	def name(self):
+		return 'action_default'
+
+	def run(self, dispatcher, tracker, domain):
+		dispatcher.utter_message("I'm not sure I understand!!!")
+		return []
+
+# the following action will be taken when user requests some category products
 class GetProductsOfCategory(Action):
 	def name(self):
 		return 'action_category_products'
@@ -17,6 +29,7 @@ class GetProductsOfCategory(Action):
 		category = tracker.get_slot('category')
 		pprint(category)
 		if category:
+			category = category.lower()
 			try:
 				url = 'http://localhost:8000/categoryProducts/'+category
 				headers = {'Content-Type': 'application/json'}
@@ -31,6 +44,7 @@ class GetProductsOfCategory(Action):
 			dispatcher.utter_message("I couldn't find any products")
 		return [SlotSet('category',category)]
 
+# this action returns product rating
 class GetUserRatingForProduct(Action):
 	def name(self):
 		return 'action_product_rating'
@@ -40,6 +54,7 @@ class GetUserRatingForProduct(Action):
 		product = tracker.get_slot('prod1')
 		pprint(product)
 		if product:
+			product = product.lower()
 			try:
 				url = 'http://localhost:8000/ratingOfProduct/'+product
 				
@@ -54,6 +69,7 @@ class GetUserRatingForProduct(Action):
 			dispatcher.utter_message("I couldn't find this product")
 		return [SlotSet('prod1', product)]
 
+# this action returns details to compare products
 class GetProductCompareDetails(Action):
 	def name(self):
 		return 'action_product_compare'
@@ -65,6 +81,8 @@ class GetProductCompareDetails(Action):
 		pprint(product1)
 		pprint(product2)
 		if product1 and product2:
+			product1 = product1.lower()
+			product2 = product2.lower()
 			try:
 				url = 'http://localhost:8000/compareProducts/'+product1+'/'+product2
 				headers = {'Content-Type': 'application/json'}
@@ -79,6 +97,7 @@ class GetProductCompareDetails(Action):
 			dispatcher.utter_message("couldn't compare")
 		return [SlotSet('prod1', product1)]
 
+# this action will return product discount
 class GetDiscountForProduct(Action):
 	def name(self):
 		return 'action_product_discount'
@@ -88,6 +107,7 @@ class GetDiscountForProduct(Action):
 		product = tracker.get_slot('prod1')
 		pprint(product)
 		if product:
+			product = product.lower()
 			try:
 				url = 'http://localhost:8000/discountOfProduct/'+product
 				headers = {'Content-Type': 'application/json'}
@@ -101,6 +121,7 @@ class GetDiscountForProduct(Action):
 			dispatcher.utter_message("I could'nt find this product")
 		return [SlotSet('prod1', product)]
 
+# this will return "cart items" as string and will be handled in chatbot's UI javascript
 class GetUserCartItems(Action):
 	def name(self):
 		return 'action_user_cart'
@@ -112,6 +133,7 @@ class GetUserCartItems(Action):
 		dispatcher.utter_message(response)
 		return []
 
+# this will return "purchased items" as string and will be handled in chatbot's UI javascript
 class GetUserPurchasedItems(Action):
 	def name(self):
 		return 'action_user_purchased'
@@ -123,6 +145,7 @@ class GetUserPurchasedItems(Action):
 		dispatcher.utter_message(response)
 		return []
 
+# this will return "profile" as string and will be handled in chatbot's UI javascript
 class GetUserProfile(Action):
 	def name(self):
 		return 'action_user_profile'
@@ -134,6 +157,7 @@ class GetUserProfile(Action):
 		dispatcher.utter_message(response)
 		return []
 
+# this action reutrns a particular product details
 class GetProductDetails(Action):
 	def name(self):
 		return 'action_product_details'
@@ -143,6 +167,7 @@ class GetProductDetails(Action):
 		prod1 = tracker.get_slot('prod1')
 		pprint(prod1)
 		if prod1:
+			prod1 = prod1.lower()
 			try:
 				url = 'http://localhost:8000/productDetails/'+prod1
 				headers = {'Content-Type': 'application/json'}
@@ -157,6 +182,7 @@ class GetProductDetails(Action):
 			dispatcher.utter_message("could'nt get the details")
 		return [SlotSet('prod1', prod1)]
 
+# this action is used to empty slots
 class Actionreset(Action):
 	def name(self):
 		return 'action_reset'

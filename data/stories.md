@@ -194,3 +194,27 @@
 * goodbye
     - utter_goodbye
 
+## Generated Story -4639259814887352724
+* greet
+    - utter_greet
+* inform{"prod1": "macbook air"}
+    - slot{"prod1": "macbook air"}
+    - action_product_details
+    - slot{"prod1": "macbook air"}
+* about_user
+    - action_user_cart
+* about_user
+    - action_user_profile
+* goodbye
+    - utter_goodbye
+
+## Generated Story 8916275577070814189
+* greet
+    - utter_greet
+* about_user
+    - action_user_profile
+* about_user
+    - action_user_cart
+* goodbye
+    - utter_goodbye
+
