@@ -37,7 +37,7 @@ python -m rasa_core_sdk.endpoint --actions actions
 ```
 3. then we have to enable API's through which chatbot will send it's answers, following is the way to do it
 ```
-python -m rasa_core.run --enable_api -d models/dialogue -u models/nlu/default/shoppingnlu --port 5002 --credentials credentilas.yml --endpoints endpoints.yml
+python -m rasa_core.run --enable_api -d models/dialogue -u models/nlu/default/shoppingnlu --port 5002 --credentials credentials.yml --endpoints endpoints.yml
 ```
 4. start postman app and check the response with the webhook url i.e., ``` http://localhost:5002/webhooks/rest/webhook ```
 and set the body as
